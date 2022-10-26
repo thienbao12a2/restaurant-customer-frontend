@@ -1,0 +1,426 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Theme : ESS Restaurant
+Author Name: Naveen Kumar Verma
+Description: Restaurant - Responsive theme and desgin
+Version: 1.0
+license: https://euclidesoftwaresolutions.com/
+Copyright 2021 ESS Authors
+*/
+
+/*===========Responsive css  ==========*/
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1140px !important;
+  }
+}
+
+@media (max-width: 1440px) {
+  .gallery-block .gallery-content h2 {
+    font-size: 56px;
+  }
+  .insta-box {
+    height: 400px;
+  }
+  .insta-box img {
+    height: 400px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar-expand-lg .navbar-collapse ul.navbar-nav li.nav-item.me-5 {
+    margin-right: 1.2rem !important;
+  }
+  .gallery-block .gallery-content {
+    padding: 20px 10px;
+  }
+  .story-boxes .story-content {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .blogs-sidebar {
+    display: none;
+  }
+
+  .blogsnext.blogbarin .blogdetail {
+    text-align: center;
+  }
+  .news-detail .news-content {
+    padding-right: 0;
+  }
+  .story-boxes .story-content {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .newsbar .new-img {
+    padding-right: 0;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .py-80 {
+    padding: 50px 0;
+  }
+  .contactus .contact-detail {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .banner-inner {
+    padding: 200px 0 100px 0 !important;
+    background-attachment: inherit !important;
+  }
+  .banner-title {
+    font-size: 50px;
+  }
+  .gallery-block .gallery-content {
+    height: auto !important;
+    margin: 20px 0 !important;
+  }
+  .home-banner .carousel-inner .item .carousel-caption {
+    min-width: 54%;
+    z-index: 2;
+  }
+  .home-banner .carousel-inner .item .carousel-caption h5 {
+    font-size: 50px;
+    line-height: 0.6;
+  }
+  .home-banner .carousel-inner .item .carousel-caption h2 {
+    font-size: 50px;
+  }
+  .navbar-light .navbar-toggler {
+    background: #ffffff;
+  }
+  .navbar-collapse {
+    padding: 20px;
+    background: #181818;
+    margin: 0 -20px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    letter-spacing: 0 !important;
+  }
+  .navbar-collapse ul.dropdown-menu {
+    position: relative !important;
+    opacity: 1 !important;
+    visibility: visible;
+    background: transparent !important;
+    transform: translate(0px, 0px) !important;
+  }
+  .navbar-collapse ul.dropdown-menu li a.dropdown-item {
+    color: #ffffff;
+    padding: 0 0 0 20px !important;
+  }
+  .py-110 {
+    padding: 50px 0;
+  }
+  .py-130 {
+    padding: 50px 0;
+  }
+  .py-210 {
+    padding: 50px 0;
+  }
+  .py-50 {
+    padding: 25px 0;
+  }
+  .menubar .menu-in {
+    margin-bottom: 20px;
+  }
+  .Press-news .col-lg-4.press-news-box {
+    padding: 0 0px;
+    border: none !important;
+    margin-bottom: 40px;
+  }
+  .Press-news .col-lg-4.press-news-box:last-child {
+    margin-bottom: 0;
+  }
+  .reservation-form .form-control {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .blogbarin a {
+    display: block;
+    text-align: center;
+  }
+  .numeric-bar {
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    padding: 20px 0;
+  }
+  .blogbarin a .blogdetail {
+    text-align: center;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .blogsprev.blogbarin {
+    margin-bottom: 20px;
+  }
+  .story-boxes .flex-col-reverse {
+    flex-direction: column-reverse;
+  }
+  form.keepup-form {
+    margin: 20px auto 0 auto;
+  }
+  .footer .main-footer h4.footer-title {
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  .contact .Keepup-date {
+    background: #e7f0f3;
+    padding: 50px 0 !important;
+  }
+  .story-boxes .story-content {
+    max-width: 100%;
+    margin: 30px auto;
+    padding: 0 15px;
+  }
+  .story-boxes .story-content h4 {
+    font-size: 26px;
+  }
+  .newsbar .news-content .date {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+  }
+  .contactus .contact-detail h4,
+  .contactformbar h4 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 10px !important;
+  }
+  .contact-form {
+    padding: 20px;
+    position: relative;
+    background: #e7eff3;
+    margin-bottom: 0px;
+  }
+  .newsbar .news-content .news-description {
+    max-width: 100%;
+  }
+  .reservation-form .formrow .input-group-prepend {
+    top: 40%;
+  }
+  .newsbar .news-content h4.news-title {
+    font-size: 18px;
+    line-height: 24px;
+    color: #08303e;
+    max-width: 100%;
+  }
+  .banner-title {
+    font-size: 30px;
+  }
+  .book-order-bar h4 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .navbar-expand-lg .navbar-collapse ul.navbar-nav li.nav-item.me-5 {
+    margin-right: 0rem !important;
+  }
+  .Reservation-bar {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .Testimonial-block .testimonial-bar p.reviewbar {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .header-area .navbar-nav li a.nav-link {
+    padding: 10px 0 !important;
+    font-size: 18px;
+  }
+  .Reservation-bar h4 {
+    margin-bottom: 30px !important;
+  }
+  .Press-news .press-news-box {
+    margin-bottom: 40px;
+  }
+  .Press-news .press-news-box:last-child {
+    margin-bottom: 0;
+  }
+  .instagram-gallery-bar {
+    padding-top: 0rem !important;
+  }
+  a#toTopBtn {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+  .menubar .menu-in {
+    margin-bottom: 20px;
+  }
+  .order-menu h4 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .story-detail p.font-Av.mb-5 {
+    margin-bottom: 2rem !important;
+  }
+  .tabs-bar .nav li {
+    margin: 0 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .tabs-bar .nav .nav-link {
+    margin: 0 auto 10px auto;
+    padding: 0 0 10px 0;
+  }
+  .gallery-block .gallery-content h2 {
+    font-size: 30px;
+  }
+  .gallery-block .gallery-content h5 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+  }
+  .gallery-block .gallery-content p {
+    margin: 0 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  .Press-news h4 {
+    font-size: 30px;
+  }
+  .copyright-bar ul.social-media {
+    display: flex !important;
+  }
+  .reservation-form .form-control {
+    margin-bottom: 10px;
+  }
+  .Keepup-date h4 {
+    font-size: 24px;
+  }
+  .rule-war h4 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-weight: bold;
+  }
+  .main-footer .row {
+    margin: 0 0;
+  }
+  .footer .main-footer .footer-widget ul.widget-list li a {
+    justify-content: flex-start;
+  }
+  .Press-news .col-lg-4.press-news-box {
+    padding: 0 15px !important;
+    border: none !important;
+  }
+  .menubar .menu-in {
+    padding: 20px 15px !important;
+  }
+  .cursive-title {
+    font-size: 30px;
+    line-height: 1;
+    font-family: "Great Vibes", cursive;
+  }
+  ul.menu-listing li {
+    margin-bottom: 15px;
+  }
+  ul.menu-listing h5 {
+    font-size: 18px;
+  }
+  ul.menu-listing p {
+    margin: 0 0;
+    font-size: 14px;
+    color: #000000;
+    line-height: 1.3;
+  }
+  .navbar-brand img {
+    transition: 0.5s ease-in-out;
+    height: 60px !important;
+  }
+  .home-banner {
+    min-height: auto;
+    position: relative;
+  }
+  .home-banner .carousel-inner .item img {
+    height: 700px !important;
+    object-fit: cover;
+  }
+  .header-area {
+    padding: 12px 15px;
+  }
+  .home-banner .carousel-inner .item .carousel-caption {
+    min-width: 90%;
+    z-index: 2;
+  }
+  .home-banner .carousel-inner .item .carousel-caption h2 {
+    font-size: 40px;
+  }
+  .home-banner .carousel-inner .item .carousel-caption h5 {
+    font-size: 35px;
+    line-height: 0.6;
+    text-align: center !important;
+  }
+  .story-block .story-detail h5 {
+    font-size: 30px;
+    line-height: 1;
+  }
+  .home-banner .carousel-inner .item .carousel-caption .address.mb-5 {
+    margin-bottom: 2rem !important;
+  }
+  .btn {
+    padding: 12px 15px;
+    font-size: 12px;
+  }
+  .reservation-form .formbtn .btn {
+    padding: 17px 15px;
+  }
+  .btnsubmit button.btn {
+    padding: 15px 15px;
+  }
+  .navbar-light .navbar-toggler {
+    padding: 4px !important;
+  }
+  .home-banner .carousel-inner .item .carousel-caption .address p {
+    font-size: 16px;
+  }
+  .story-detail {
+    padding-top: 30px;
+  }
+  .story-block .story-detail h2 {
+    font-size: 30px;
+    margin: 0 0 20px 0 !important;
+  }
+  .private-dining h4 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-bottom: 10px !important;
+  }
+  .cover-image h4 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-bottom: 10px !important;
+  }
+  .btn-row {
+    display: block;
+    text-align: center;
+  }
+  .py-180 {
+    padding: 50px 0;
+  }
+  .btn-row a {
+    margin-top: 10px;
+  }
+  .private-dining p.text-white.mb-5 {
+    margin-bottom: 10px !important;
+  }
+  .border-5 {
+    border-width: 2px !important;
+  }
+}
